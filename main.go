@@ -19,4 +19,7 @@ func main(){
 	// // fmt.Print(occur)
 	shifted:= codes.LeftShift(arr,2,len(arr))
 	fmt.Println(shifted)
+	anagram := codes.Anagram("listen","hitesh")
+
+	fmt.Println(anagram)
 }
