@@ -22,4 +22,9 @@ func main(){
 	anagram := codes.Anagram("listen","hitesh")
 
 	fmt.Println(anagram)
+	var reverse string
+	str := "pratham"
+	length := len(str)
+	codes.ReverseRecursion(str,&reverse,length)
+	fmt.Println(reverse)
 }
