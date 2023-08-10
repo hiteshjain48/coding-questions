@@ -27,4 +27,7 @@ func main(){
 	length := len(str)
 	codes.ReverseRecursion(str,&reverse,length)
 	fmt.Println(reverse)
+
+	char := codes.FirstNotRepeating("programming")
+	fmt.Println(char)
 }
