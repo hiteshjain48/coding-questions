@@ -23,11 +23,12 @@ func main(){
 
 	fmt.Println(anagram)
 	var reverse string
-	str := "pratham"
+	str := "Vaibhya bsdk"
 	length := len(str)
 	codes.ReverseRecursion(str,&reverse,length)
 	fmt.Println(reverse)
 
 	char := codes.FirstNotRepeating("programming")
 	fmt.Println(char)
+	codes.ReverseSentence("I love programming")
 }
