@@ -17,18 +17,20 @@ func main(){
 	// max,min := codes.MinMax(arr)
 	// fmt.Printf("Min is %d and Max is %d\n", min,max)
 	// // fmt.Print(occur)
-	shifted:= codes.LeftShift(arr,2,len(arr))
-	fmt.Println(shifted)
-	anagram := codes.Anagram("listen","hitesh")
+	// shifted:= codes.LeftShift(arr,2,len(arr))
+	// fmt.Println(shifted)
+	// anagram := codes.Anagram("listen","hitesh")
 
-	fmt.Println(anagram)
-	var reverse string
-	str := "Vaibhya bsdk"
-	length := len(str)
-	codes.ReverseRecursion(str,&reverse,length)
-	fmt.Println(reverse)
+	// fmt.Println(anagram)
+	// var reverse string
+	// str := "Vaibhya bsdk"
+	// length := len(str)
+	// codes.ReverseRecursion(str,&reverse,length)
+	// fmt.Println(reverse)
 
-	char := codes.FirstNotRepeating("programming")
-	fmt.Println(char)
-	codes.ReverseSentence("I love programming")
+	// char := codes.FirstNotRepeating("programming")
+	// fmt.Println(char)
+	// codes.ReverseSentence("I love programming")
+	balanced := codes.BalancedString("(){}")
+	fmt.Println(balanced)
 }
