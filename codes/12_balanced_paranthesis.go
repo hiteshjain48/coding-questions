@@ -1,6 +1,5 @@
 package codes
 
-
 type Stack struct {
 	stack []string
 }
@@ -10,11 +9,9 @@ func (s Stack) push(value string) {
 }
 
 func (s Stack) pop() {
-	// element := s.stack[len(s.stack)-1]
 	if len(s.stack)!=0 {
 		s.stack = s.stack[:len(s.stack)-1]
 	}
-	// return element
 }
 
 func BalancedString(str string) bool{
