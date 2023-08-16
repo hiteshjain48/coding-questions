@@ -31,6 +31,8 @@ func main(){
 	// char := codes.FirstNotRepeating("programming")
 	// fmt.Println(char)
 	// codes.ReverseSentence("I love programming")
-	balanced := codes.BalancedString("(){}")
-	fmt.Println(balanced)
+	// balanced := codes.BalancedString("(){}")
+	// fmt.Println(balanced)
+	gcd := codes.GreatestCommonDivisor(15,67)
+	fmt.Println(gcd)
 }
